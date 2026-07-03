@@ -32,18 +32,24 @@ export default function Hero() {
             and authentic traditional recipes for every celebration.
           </p>
 
-          <div className="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start">
+          <div className="mt-10 flex flex-wrap gap-5">
 
-            <button className="flex items-center gap-2 rounded-full bg-[#D4A373] px-8 py-4 font-semibold text-white hover:scale-105 transition">
-              Shop Now
-              <ArrowRight size={20} />
-            </button>
+  <a
+    href="#products"
+    className="flex items-center gap-2 rounded-full bg-[#D4A373] px-8 py-4 text-lg font-semibold text-white shadow-xl transition hover:scale-105"
+  >
+    Shop Now
+    <ArrowRight size={20} />
+  </a>
 
-            <button className="rounded-full border-2 border-[#D4A373] px-8 py-4 font-semibold text-[#4B2E2E] hover:bg-[#D4A373] hover:text-white transition">
-              View Products
-            </button>
+  <a
+    href="#products"
+    className="rounded-full border-2 border-[#D4A373] px-8 py-4 text-lg font-semibold text-[#4B2E2E] transition hover:bg-[#D4A373] hover:text-white"
+  >
+    View Products
+  </a>
 
-          </div>
+</div>
         </motion.div>
 
         {/* Right */}
